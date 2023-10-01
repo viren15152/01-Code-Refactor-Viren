@@ -14,4 +14,8 @@ I have ensured that the elements follow the logical structure independent of sty
 Screenshot:
 
 
-Breakdown of the HTML changes that I have made,Implemented a new title so that it is concise and and descriptive e.g. Horiseon Social Solution Service, Inc,I have changed a div to a header,I added a semantic HTML element id="nav to the div.
+Breakdown of the HTML changes that I have made:
+I have removed the closing tag for the meta tags added name and content to improve SEO.
+Implemented a new title so that it is concise and and descriptive e.g. Horiseon Social Solution Service, Inc.
+I have changed a div to a header,I added a semantic HTML element id="nav to the div.
+
