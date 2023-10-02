@@ -2,7 +2,9 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Horiseon Social Solution Service, Inc. offers search-engine-optimization, Online-reputation-management, and Social Media Marketing services to increase your business's online presence and brand awareness.">
+    <!-- I have removed the closing tag for the meta tags added name and content to improve SEO-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon Social Solution Service, Inc.</title>
     <!-- Implemented new title Horiseon Social Solution Service, Inc. -->
@@ -12,10 +14,9 @@
     <header class="header">
         <!-- Changed "div element to "<header>" -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div id="nav">
-            <!-- I added a semantic HTML element id="nav to the div"-->
+        <nav>
+            <!-- I changed the div tag to nav in order to create a navigation toolbar-->
             <ul>
-                <!--Deleted redundant <li> element-->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -26,63 +27,75 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </header>
-    </div>
-    <div class="hero"></div>
+        </nav>
+    </header>
+    
+    <!-- This part contains the hero image-->
+    <figure class="hero"></figure>
+    <!-- Changed div to figure as it is self contained content-->
+    
+    <!-- This part is the main content I have used article elements as this -->
+    <section>
     <section id="section" class="content">
         <div id="search-engine-optimization" class="search-engine-optimization">
             <!-- Implemented an id="search-engine-optimization -->
             <img src="./assets/images/search-engine-optimization.jpg" title="search-engine-optimization" alt="desk with mac,pencil pot and coffee" class="float-left" />
-            <!-- Implemented title attribute for SEO and and alt attribute for description-->
+            <!-- Implemented title and alt attributes to images-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            </div>
+        </section>
+        <section id="online-reputation-management" class="online-reputation-management">
+            <img src="./assets/images/online-reputation-management.jpg" title="online-reputation-management" alt="Person at desk on the phone with a laptop and drink" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+        </section>
+        <section id="social-media-marketing" class="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" title= "Marketing Meeting" alt="Group of people at a desk with word social media marketing word bubbles tweet,like,share,media" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+        </section>
+        <!-- Changed div tags to section-->
+    </section>
+    <!-- I have replaced the div elements with aside elements as this part is the sidebar on the website-->
+    <aside class="benefits">
+        <section class="benefit-lead">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" title="Symbols" alt="half a cog with above a downward arrow and a dollar sign" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
+        </section>
         <div class="benefit-brand">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" title="Symbols" alt="A light bulb in a shirt and tie"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
         <div class="benefit-cost">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" />
+            <img src="./assets/images/cost-management.png" title="Symbols" alt="A cog above three round dollar sign symbols"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </aside>
+
+    <!-- This section is the footer-->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
+    <!--changed the div to footer-->
 </body>
 
 </html>
